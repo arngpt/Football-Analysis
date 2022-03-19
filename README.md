@@ -49,6 +49,7 @@ We used histograms to check if there were any outlier in our datasets and we did
  
 
 Skewness values – As skewness is less, we did not need to use box-cox transformation. We ignore team_api_id as it is nominal and doesn’t make sense to normalize. Below is the mentioned skewness for all attributes. 
+
 ![image](https://user-images.githubusercontent.com/43316158/159100903-4152155d-a561-4880-b006-c4d31512ec04.png)
 
 Below is an example of histograms before and after using min-max normalization for slightly skewed attribute buildUpPlayPassing: 
